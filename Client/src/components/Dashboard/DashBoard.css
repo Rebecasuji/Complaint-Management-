@@ -1,0 +1,61 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .dashboard {
+    padding: 20px;
+  }
+  
+  .statistics {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .stat-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .chart {
+    margin: 20px;
+  }
+  
+  .complaints-table {
+    margin: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .status.pending {
+    background-color: yellow;
+  }
+  
+  .status.solved {
+    background-color: green;
+  }
+  
+  .details-btn, .submit-btn {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .details-btn:hover, .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
